@@ -1,4 +1,4 @@
-# desafio10--authentication--oliver-zapata
+# desafio11--arquitectura--oliver-zapata
 
 ## Pasos para ejecutarlo
 
@@ -146,3 +146,9 @@ En este router se renderizan las vistas de registro y de login mostradas en las 
 - Ahora se maneja jwt en conjunto con passport<br>
 - Se añadió una nueva ruta http://localhost:8080/api/sessions/current donde se ve el usuario
 - Ahora los métodos get del carrito de compras está asociado a los usuarios por lo que solo se verán los carritos que haya creado el usuario registrado
+  
+### Nuevas implementaciones - 2
+
+- Se añadió un modelo de capas
+- Se añadieron variables de entorno
+- Ahora las vistas y los archivos que se encargan de la lógica de las vistas del lado del cliente se encuentran en la carpeta "rendered"
